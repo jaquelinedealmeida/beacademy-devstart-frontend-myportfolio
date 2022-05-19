@@ -1,0 +1,35 @@
+
+
+.container {
+    width: 100%;
+    max-width: 124px;
+    margin: 0 auto;
+    padding: 0 rem 1.5rem;
+}
+
+
+h2 span {
+    color: var(--primary-color);
+}
+
+.btn.primary {
+    border-radius: 2.4rem;
+    font-weigth: 1.5rem;
+    line-height: 2.4 rem;
+    font-size: 2.4rem;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    padding: 1 rem 2.6rem;
+
+}
+
+.btn-primary.empty {
+    border: 2 p
+}
+
+
+.tag {
+    border-radius: 5rem;
+    padding: 0.6rem 2 rem;
+    background-color: 
+}
