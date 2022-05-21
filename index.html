@@ -1,173 +1,236 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
-
+    <link
+      rel="shortcut icon"
+      href=""
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800;900&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assents/css/reset.css" />
     <link rel="stylesheet" href="./assents/css/pattern.css" />
+    <link rel="stylesheet" href="./assents/css/style.css" />
     <link rel="stylesheet" href="./assents/css/responsive.css" />
 
-    <title>My Portfolio</title>
-</head>
-
-<body>
+    <title>Portfolio</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <img src="./assents/img/Logo_Amara.png" alt="Logo Amara" />
+      <div class="container">
+        <div class="logo">
+          <!--<img src="" alt=""/>--> 
         </div>
-
         <nav>
-            <ul class="menu">
-                <li><a href="#about" class="menu-item">Quem sou eu</a>/li>
-                <li><a href="#projects" class="menu-item">Projetos</a></li>
-            </ul>
-            <a href="#contact" class="btn-primary"><span>Saiba Mais</span></a>
+          <ul class="menu">
+            <li><a href="#about" class="menu-item">Quem sou eu</a></li>
+            <li><a href="#cases" class="menu-item">Projetos</a></li>
+          </ul>
+          <a href="#contact" class="btn-primary"
+            ><span>Saiba Mais</span></a
+          >
+          <ul class="menu-social">
+            <li>
+              <a href="https://www.linkedin.com/in/jaqueline-de-almeida/" target="_blank"
+                ><img
+                  src="./assents/img/icons8-linkedin.png"
+                  alt="Página Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/jaquelinedealmeida" target="_blank"
+                ><img
+                  src="./assents/img/icons8-github.png"
+                  alt="Página GitHub"
+              /></a>
+            </li>
+          </ul>
+          <i class="toggle close-menu"></i>
         </nav>
+        <i class="toggle open-menu"></i>
+      </div>
     </header>
+
     <main>
-        <section class="heroines-sucess">
-            <div class="containter">
-                <div class="title">
-                    <h1>Boas vindas! <br /><span>Eu sou Jaqueline de Almeida</span></h1>
-                    <h2>Desenvolvedora Front-end Júnior e Comunicóloga</h2>
-                    <p>Soluções simples, inovadoras e Criativas para o seu negócio</p>
-                </div>
-
-                <div class="technology">
-                    <a href="">
-                        <img src="" alt="HTML" />
-
-                        <a href=""></a>
-                        <img src="" alt="CSS" />
-
-                        <a href="">
-                            <img src="" alt="Javascript" /></a>
-
-                        <a href="">
-                            <img src="" alt="React" /></a>
-                        <a href="">
-                            <img src="" alt="Node JS" />
-                        </a>
-                </div>
-
-                <a href="" class="btn-primary empty">Veja meus prjetos</a>
-        </section>
-
-        <section class="s-sucess">
-            <div class="container">
-                <div class="title-sucess">
-                    <span class="tag"></span>
-                    <h2><span>Criando></span>muitas possibilidades<br>para você</h2>
-                </div>
-
-                <div class="cards">
-                    <div class="card active">
-                        <div class="card-title">
-                            <h3>4</h3>
-                        </div>
-                        <div class="card-info">
-                            <p>Formações <br />
-                                <strong>realizadas</strong>
-                            </p>
-                        </div>
-                    </div>
-
-
-                    <div class="card">
-                        <div class="card-title">
-                            <h3>10</h3>
-                        </div>
-                        <div class="card-info">
-                            <p>
-                                Páginas </p>br>
-                            <strong>Desenvolvidas</strong>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-title">
-                            <h3>100%</h3>
-                        </div>
-                        <div class="card-info">
-                            <p>
-                                Entregas <br />
-                                <strong>no prazo</strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="about" class="s-about">
-            <div class="container">
-                <div class="about-me">
-                    <h2>Quem sou<span>.</span></h2>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit facilis dicta sint nulla
-                        numquam,
-                        quas consequatur laboriosam doloremque asperiores facere temporibus minima ipsum quam rem
-                        consectetur itaque minus necessitatibus veniam.
-                    </p>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="" alt=" Linkedin">
-                            </a>
-                        </li>
-                        <li>
-                            <a href=""><img src="" alt="
-                        Instagram"></a>
-                        </li>
-
-                        <li>
-                            <a href=""><img src="" alt="
-                       GitHub"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="my-picture">
-                    <img src="" alt="Foto de Perfil" />
-                </div>
-            </div>
-        </section>
-
-        <section id="project" class="firstprojetc">
-            <div class="project">
-                <div class="container">
-                    <h2>Projetos<span>.</span></h2>
-                </div>
-                <div class="projects_one">
-                    <div class="project">
-                        <img src="" alt="Case 1">
-                    </div>
-                    <div class="project">
-                        <img src="" alt="Case 2">
-                    </div>
-                    <div class="project">
-                        <img src="" alt="Case 3">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        
-    </main>
-    <footer>
+      <section class="s-hero">
         <div class="container">
+          <div class="title">
+            <h1>Boas Vindas! <br>👩🏽‍💻<br>Eu sou<br><span> Jaqueline<br>de<br>Almeida</span></h1>
+           
+            <h2>Desenvolvedora Front-end Júnior | Comunicóloga</h2>
+            
+            <p>
+              Construo Soluções Simples, Inovadoras e Criativas.
+            </p>
 
+            <div class="techs">
+              <a href="">
+                <img src="./assents/img/icone-html.png" alt="Linguagem HTML" />
+              </a>
+              <a href="">
+                <img src="./assents/img/icone-css.png" alt="Linguagem CSS" />
+              </a>
+              <a href="">
+                <img
+                  src="./assents/img/icone-html.png"
+                  alt="Linguagem Javascript"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./assents/img/icone-react.png"
+                  alt="Linguagem React"
+                />
+              </a>
+              
+            </div>
+
+            <a href="" class="btn-primary empty">Veja meus projetos</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="s-success">
+        <div class="container">
+          <div class="title-success">
+            <span class="tag">Venha junto comigo</span>
+            <h2><span>Inovação</span><br />Comunicação<br />Tecnologia</h2>
+          </div>
+          <div class="cards">
+            <div class="card active">
+              <div class="card-title">
+                <h3>+4</h3>
+              </div>
+              <div class="card-info">
+                <p>
+                  Páginas  <br />
+                  <strong>Desenvolvidos</strong>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title">
+                
+                <h3>Case</h3>
+              </div>
+              <div class="card-info">
+                <p>
+                  de <br />
+                  <strong>Sucesso </strong>
+                  <a href="https://techancestralifa.netlify.app/" target="_blank"></a>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title">
+                <h3>100%</h3>
+              </div>
+              <div class="card-info">
+                <p>
+                  Aprendizado <br />
+                  <strong>Constante</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="s-about">
+        <div class="container">
+          <div class="about-me">
+            <h2>QUEM SOU<span>.</span></h2>
+            <p>
+              Comunicóloga/Relações Públicas com mais de 15 anos no mercado.Atuando em Instituições Públicas, empresas privadas e Ongs. Em 2021 iniciou a transição pra TI, estudando Desenvolvimento Front-end na Reprograma (HTML, CSS, Javascritp, NodeJs e Reprograma).
+              Tem formação em UX Design, pela Design Circuit. 
+              Atualmente estuda Desenvolvimento Full Stack pela ONE(Oracle Next Education) - com ênfase em Javascript e Java. 
+            </p>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="./assents/img/icons8-linkedin.png" alt="Meu Linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assents/img/icons8-github.png" alt="Meu GitHub"
+                /></a>
+              </li>
+          </div>
+          <div class="my-picture">
+            <img src="./assents/img/foto_jaqueline.jpg" alt="Foto de Perfil" />
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="s-cases">
+        <div class="container">
+          <div class="title-cases">
+            <h2>PROJETOS<span>.</span></h2>
+          </div>
+          <div class="cases">
+            <div class="case">
+              <img src="./assents/img/case1.png" alt="Case 1" />
+            </div>
+            <div class="case">
+              <img src="./assents/img/case2.png" alt="Case 2" />
+            </div>
+            <div class="case">
+              <img src="./assents/img/case3.png" alt="Case 3" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="s-contact">
+        <div class="container">
+          <div class="title-contact">
+            <h2>
+              Entre em  <br />
+              Contato<span>.</span>
+            </h2>
+          
+          </div>
+
+          <form class="form-contact" method="post" action="">
+            <div class="input-group">
+              <input type="text" placeholder="Preencha seu nome" required />
+            </div>
+
+            <div class="input-group">
+              <input type="text" placeholder="Preencha seu nome" required />
+            </div>
+
+            <div class="input-group">
+              <textarea rows="6" placeholder="Deixe sua mensagem"></textarea>
+            </div>
+            <div class="input-button">
+              <button class="btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="copy">
+          <p>Jaqueline de Almeida | 2022.</p>
+        </div>
+      </div>
     </footer>
-</body>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
