@@ -1,4 +1,5 @@
 
+
 /* Header */
 header {
   position: absolute;
@@ -275,6 +276,17 @@ header .container nav .menu-social img:hover {
 .s-cases .container .cases img:hover {
   transform: translateY(-2%);
 }
+
+.s-cases .container .cases p {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-weight:600px;
+  margin-top: 1rem;
+}
+
+
 
 /* .s-cases .container .cases .case {
   position: absolute;

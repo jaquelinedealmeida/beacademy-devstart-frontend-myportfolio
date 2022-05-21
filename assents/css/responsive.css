@@ -23,7 +23,9 @@
       text-align: center;
     }
     .s-about .container .about-me p {
-      text-align: center;
+      text-align: justify;
+      padding-left: .6rem;
+      padding-right: .2rem;
     }
     .s-about .container .about-me ul {
       justify-content: center;
