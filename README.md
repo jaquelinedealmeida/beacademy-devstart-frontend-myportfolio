@@ -7,7 +7,14 @@ Desenvolvido para o Bootcamp DevStart - parceria entre PayLivre e Be Academy.
 
 HTML e CSS
 
+# Página Web
+[https://jaquelinedealmeida.github.io/beacademy-devstart-frontend-myportfolio/]
+
 # Autora
 
 Jaqueline de Almeida 
-Linkedin[]
+Linkedin[https://www.linkedin.com/in/jaqueline-de-almeida/]
+
+# Agradecimento
+
+Professor Monteiro - seu repositório serviu de base para a criação do meu.  
